@@ -2,6 +2,9 @@
 
 POC integrating Splunk & OCP using universal forwarder as a sidecar container. Configure FluentD to write log events to the local filesystem. Configure the Splunk Universal Forwarder to pick up the events in these logs and forward them onto the main Splunk instance.
 
+*Please do take note : 
+Its the best documentation how-to guide related to OCP-Splunk implementation.
+Once i implement this, the existing Kibana (EFK) wont gather logs anymore.
 
 ## Assumptions
 1. Splunk is installed and you have admin rights to administer it
